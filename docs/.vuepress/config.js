@@ -10,26 +10,18 @@ export default defineUserConfig({
   description: 'My first VuePress Site',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    // logo: 'https://vuejs.press/images/hero.png',
 
     navbar: [
       '/',
       {
-        text: 'Article',
+        text: '笔记',
         link: '/article/',
-      },
-      {
-        text: 'Category',
-        link: '/category/',
       },
       {
         text: 'Tag',
         link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
-      },
+      }
     ],
   }),
 
